@@ -1,0 +1,17 @@
+{
+  "name": "eager-imports-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin to default all dynamic imports to eager-mode as a way to speed up non-production builds for large projects.",
+  "main": "lib/index.js",
+  "author": "Michael Loughry <miclo@microsoft.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^4.4.31",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "peerDependencies": {}
+}
