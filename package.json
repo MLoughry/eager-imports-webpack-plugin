@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "author": "Michael Loughry <miclo@microsoft.com>",
   "license": "MIT",
+  "repository": {
+      "type": "GitHub",
+      "url": "https://github.com/MLoughry/eager-imports-webpack-plugin"
+  },
   "devDependencies": {
     "@types/webpack": "^4.4.31",
     "typescript": "^3.4.5"
