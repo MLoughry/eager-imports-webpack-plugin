@@ -6,6 +6,18 @@ Since that work (and webpack 5) are not yet released, this plugin is designed to
 
 ### *This should never be used in production builds*
 
+## Installation
+
+```bash
+npm i -D eager-imports-webpack-plugin
+```
+
+Or using yarn
+
+```bash
+yarn add -D eager-imports-webpack-plugin
+```
+
 ## Usage
 
 ```ts
